@@ -1,0 +1,3 @@
+ZeroAlbedoFvPatchScalarField.C
+
+LIB = $(FOAM_USER_LIBBIN)/libZeroAlbedo
