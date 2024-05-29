@@ -182,7 +182,7 @@ void Foam::newAlbedoFvPatchScalarField::write
 
 
     writeEntry(os, "beta", beta_);
-    writeEntry(os, "diffCoeffName", diffCoeffName_);
+    writeEntry(os, "DiffCoeffName", diffCoeffName_);
     writeEntry(os, "refValue", refValue());
     writeEntry(os, "refGradient", refGrad());
     writeEntry(os, "valueFraction", valueFraction());
